@@ -1,0 +1,37 @@
+.header {
+    background-color: #fef139;
+}
+
+.container {
+    font-size: 0;
+    /* remove whitespace between images */
+}
+
+.container img {
+    display: inline-block;
+    /* make images inline-block elements */
+    margin: 0 10px;
+    /* add some margin between images */
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    /* prevent images from wrapping to a new line */
+}
+
+.container img {
+    margin: 0 10px;
+    /* add some margin between images */
+}
+
+
+
+
+
+.paragraph {
+    width: 1300px;
+    height: 400.95px;
+    margin-left: 290px;
+    padding: 10px 20px;
+}
